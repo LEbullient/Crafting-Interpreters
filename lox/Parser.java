@@ -84,7 +84,7 @@ class Parser {
       expr = parseParen();
     } else if (match(BANG, MINUS)) {
       expr = parseUnary();
-    } else if (match(STRING, NUMBER, TRUE, FALSE, IDENTIFIER)) {
+    } else if (match(STRING, NUMBER, TRUE, FALSE, IDENTIFIER, NIL)) {
       expr = parseLiteral();
     } else {
       throw new RuntimeException("expect a single");
