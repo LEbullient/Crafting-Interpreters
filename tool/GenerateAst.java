@@ -16,7 +16,7 @@ public class GenerateAst {
     writeAst(outputDir, "Expr", Arrays.asList(
       "Binary: Expr left, Token operator, Expr right",
       "Unary: Token operator, Expr right",
-      "Literal: Object value",
+      "Literal: Object value"
     ));
   }
 
