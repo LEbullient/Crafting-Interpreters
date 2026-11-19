@@ -34,6 +34,9 @@ class Parser {
     return expr;
   }
 
+  /*
+  Lox supports a==b==c. It evaluates a==b to a boolean first, then evaluates the boolean with c
+  */
   private Expr parseEquality() {
     Expr expr = parseComparison();
 
