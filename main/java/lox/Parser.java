@@ -5,9 +5,9 @@ to verify the feasibility of the contract, check whether it's consistent across 
 think in code first. after finish implementing, you  will see the connection between code and grammar
 */
 
-package lox;
+package main.java.lox;
 
-import static lox.TokenType.*;
+import static main.java.lox.TokenType.*;
 
 import java.util.List;
 

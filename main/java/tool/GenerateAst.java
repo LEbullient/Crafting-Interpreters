@@ -1,4 +1,4 @@
-package tool;
+package main.java.tool;
 
 import java.io.IOException;
 import java.io.PrintWriter;

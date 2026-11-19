@@ -1,4 +1,4 @@
-package lox;
+package main.java.lox;
 
 import java.util.List;
 

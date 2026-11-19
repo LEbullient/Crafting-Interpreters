@@ -1,4 +1,4 @@
-package lox;
+package main.java.lox;
 
 class AstPrinter implements Expr.Visitor<String>{
   String print(Expr expr) {

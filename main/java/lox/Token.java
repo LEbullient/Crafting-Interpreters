@@ -1,4 +1,4 @@
-package lox;
+package main.java.lox;
 
 public class Token {
   final String lexeme;
